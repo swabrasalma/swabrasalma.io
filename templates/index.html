@@ -1,0 +1,630 @@
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Swabra.io</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor.css' %}">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js' %}"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'icon.jpg' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'faviconz-32x32.ico' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'faviconz-16x16.ico' %}">
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+
+</head>
+
+<body id="top">
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a href="index.html">
+                <img src="{% static 'images/erupt.png' %}" alt="Homepage">
+            </a>
+        </div>
+
+        <div class="header-content">
+    
+            <nav class="row header-nav-wrap">
+                <ul class="header-nav">
+                    <li><a class="smoothscroll" href="#hero" title="Hello">Home</a></li>
+                    <li><a class="smoothscroll" href="#about" title="About Me">About</a></li>
+                    <li><a class="smoothscroll" href="#services" title="Expertise">Works</a></li>
+                    <li><a class="smoothscroll" href="#testimonials" title="Career">Career</a></li>
+                    <li><a href="mailto:swabrakaterega@gmail.com" title="Contact us">Say Hello</a></li>
+                </ul>
+            </nav> <!-- end header-nav-wrap -->
+
+            <a href="#0" class="btn btn--stroke btn--small">Download CV</a>
+
+        </div> <!-- end header-content -->
+
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> 
+
+
+    <!-- hero
+    ================================================== -->
+    <section id="hero" class="s-hero target-section" data-parallax="scroll" 
+    data-image-src="{% static 'images/picz.jpg' %}"
+    data-position-y=center
+    data-natural-width=1000
+    data-natural-height=800>
+
+        <div class="row hero-content">
+
+            <div class="column large-full">
+
+                <h2>
+                { Hello world } </h2></br><h1>I'm Swabra. <br></h1>
+                <h4 style="font-size: 2em;">
+                    <!-- Software Developer |  --> | Data | STEM | Analyais 
+                    <br>
+                <!-- Python-django couch | --> | Django girls
+                <!-- <br> -->
+                <!-- CTO WOP |  -->
+                <br>
+                <!-- Learner | Entrepenuer. --> | Women in Tech.
+                <br><br><br><br><br>
+                </h4>
+
+                <ul class="hero-social">
+                    <li>
+                        <a href="https://twitter.com/swabra20" title="twitter profile">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/swabra-namayanja-b79227129/" title="linkedin profile">LinkedIn</a>
+                    </li>
+                    <li>
+                        <a href="https://join.skype.com/invite/E1CA8Zppeeia" title="skype profile">Skype</a>
+                    </li>
+                </ul> <!-- end hero-social -->
+
+            </div> 
+
+        </div> <!-- end hero-content -->
+
+        <div class="hero-scroll">
+            <a href="#about" class="scroll-link smoothscroll">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 24l-8-9h6v-15h4v15h6z"/></svg>
+            </a>
+        </div> <!-- end hero-scroll -->
+
+    </section> <!-- end s-hero -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="s-about__section s-about__section--profile">
+
+            <div class="right-vert-line"></div>
+
+            <div class="row">
+                <div class="column large-6 medium-8 tab-full">
+
+                    <div class="section-intro" data-num="01" data-aos="fade-up">
+                        <h3 class="subhead">About Me</h3>
+                        <h1 class="display-1">Active Volcano! </h1>
+                    </div>
+
+                    <div class="profile-pic" data-aos="fade-up">
+                        <img src="{% static 'images/profile-pic.jpg' %}" 
+                             alt="">
+                    </div>
+
+                    <h3 data-aos="fade-up">Profile</h3>
+
+                    <p data-aos="fade-up">
+                    My Research interest is is understanding the impact of 
+                    data & context in technology design , adoption and utilization. My current projects include:</br>
+                    1) <br>
+                    2) Understanding how user interfaces facilitate the spread of misinformation.<br>
+                    3) Equiping women with programming knowledge basic programming knowledge using 
+                    python-django as a tool through programs like Django-girls Kampala. </br>
+                    <!-- 2) Women of purpose : Sensitization about communal issues and how we can best address them. 
+                    Digital Marketing and social grouping as a tool.</br> -->
+
+                    I am also actively involved in encouraging and empowering young girls and women 
+                    to harness the power of technology (through iHerAfrica and Women Of Purpose initiavites).
+                    
+                    </p>
+
+                </div>
+            </div>
+
+        </div> <!-- end s-about__section--profile -->
+
+        <div class="s-about__section">
+
+            <div class="row">
+                <div class="column">
+                    <h3 data-aos="fade-up">Peer-Previewed Publications</h3>
+                </div>
+            </div>
+
+            <div class="row block-large-1-2 block-900-full work-positions">
+
+                <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <span class="position__co">Workshops</span>
+                                <span class="position__pos">Women in Technology 2019</span>
+                            </h6>
+                            <div class="position__timeframe">
+                                Nov 2019
+                            </div>
+                        </div>
+
+                        <p>
+                            
+                            Role :: Pannelist <br>
+                            Discussion :: Inpact of women in technology                         
+                        </p>
+                    </div>
+                </div> <!-- end column -->
+                <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <!-- <span class="position__co">ACM Articles</span> -->
+                                <span class="position__co">Conferences</span>
+                                <span class="position__pos">Blockchain Africa</span>
+                            </h6>
+                            <div class="position__timeframe">
+                                Aug 2018
+                            </div>
+                        </div>
+
+                        <p>
+                            Role :: Student Representative, Makerere University</br>
+                            Field :: Software Engineering </br>
+                        </p>
+                    </div>
+                </div> <!-- end column -->
+                
+
+            </div> <!-- work positions -->
+
+        </div> <!-- end s-about__section -->
+
+        <div class="s-about__section">
+
+            <div class="row">
+                <div class="column">
+                    <h3 data-aos="fade-up">Education</h3>
+                </div>
+            </div>
+
+            <div class="row block-large-1-2 block-900-full work-positions">
+
+                <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <span class="position__co">Harvad University | EDx</span>
+                                <span class="position__pos">Data Science</span>
+                            </h6>
+                            <div class="position__timeframe">
+                                Mar 2020 - Present
+                            </div>
+                        </div>
+
+                        <p>
+                            Reward :: Certificate of merit</br>
+                            Field :: Data Science</br>
+                            Grade :: </br>
+                        
+                        </p>
+                    </div>
+                </div> <!-- end column -->
+                <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <span class="position__co">Makerere University</span>
+                                <span class="position__pos">Software Engineering</span>
+                            </h6>
+                            <div class="position__timeframe">
+                                Aug 2015 - Jan 2020
+                            </div>
+                        </div>
+
+                        <p>
+                            Reward :: Bachelor's Degree </br>
+                            Field :: Software Engineering </br>
+                            Grade :: Second class upper division </br>
+                        </p>
+                    </div>
+                </div> <!-- end column -->
+                
+
+            </div> <!-- work positions -->
+
+        </div>
+
+        </div> <!-- end s-about__section--profile -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id="services" class="s-services target-section h-dark-bg">
+        
+        <div class="row s-services__content">
+
+            <div class="vert-line"></div>
+
+            <div class="column large-6 s-services__leftcol">
+                <div class="section-intro" data-num="02" data-aos="fade-up">
+                    <h3 class="subhead">Expertise</h3>
+
+                    <h1 class="display-1">
+                    I focus on crafting tech experiences
+                    and solutions to address communal problems.
+                    </h1>
+                </div>
+
+                <p class="lead" data-aos="fade-up">
+                    “Once a new technology rolls over you, if you're not part of the steamroller, 
+                    you're part of the road.” Stewart Brand
+                </p>
+            </div> <!-- end  s-services--leftcol -->
+
+            <div class="column large-6">
+                <ul class="services-list" data-aos="fade-up">
+                    <li class="services-list__item is-active">
+                        <div class="services-list__item-header">
+                            <h5>Solution Design</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                            As I tumble through the air, it is no news that the art of crafting software 
+                            solutions that directly or indirectly address 
+                            communal problems is a burning flame that only we can keep up.
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Software System Developement</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                            Am conversant with the standadized software development lifecycle from product initiation to
+                            delivery with high considerations of quality and user acceptance. 
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Data Analysis</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                            Data is powerful a resource to support decision making through analytical and theoretical trends.
+                            Through tools like R and Python programming languages, 
+                            I have implemented a number of applications aimed at analysing and intepreting data.
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Tutoring in Programming</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                            And what is knowledge if it is not shared. I enjoy tutoring and training; both programming 
+                            and interpersonnel skills. 
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Project Management</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                Using PRINCE2 as a framework, I can manage software projects from initialization to release 
+                                in both agile and proceedural environments.
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Public Speaking & Mentorship</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                Be not decived by my shyness! Am a public speaker with a main interest in women empowerment and STEM.
+                                I also have much love for mentoring through projects like Django girls, Women in Tech, Africa on the move, Fundi girls amongst others.
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                </ul> <!-- end services-list -->
+            </div>
+
+        </div> <!-- s-services__content -->
+
+    </section> <!-- end s-services -->
+
+
+    <!-- testimonials
+    ================================================== -->
+    <section id="testimonials" class="s-testimonials">
+
+        <!-- CTA
+        ================================================== -->
+        <div class="s-about__section">
+
+            <div class="row">
+                <div class="column">
+                    <h3 data-aos="fade-up">Career</h3>
+                </div>
+            </div>
+    
+            <div class="row block-large-1-2 block-900-full work-positions">
+    
+                <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <span class="position__co">GDExprts UG</span>
+                                <span class="position__pos">Solutions Developer | Applications Maintainer</span>
+                            </h6>
+                            <div class="position__timeframe">
+                                July 2019 - Present
+                            </div>
+                        </div>
+    
+                        <p>
+                            - Participating in the analysis of requirements, design and architecture, 
+                            development robust code for high-volume newly digitized processes for MTN as a client.</br>
+                            - Implementation of multiple cross platform applications for example the MTN Enterprise 
+                            Business Unit Bid management system, Mobile Financial Services Agent Query management system amongst others.</br>
+                            - Linux and Windows server applications maintanance.
+                        </p>
+                    </div>
+                </div> <!-- end column -->
+                <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <span class="position__co">Lacel Technologies UG</span>
+                                <span class="position__pos">Junior Software Developer</span>
+                            </h6>
+                            <div class="position__timeframe">
+                                August 2017 - May 2018
+                            </div>
+                        </div>
+    
+                        <p>
+                            - Implementation of the OffTaker farmer management portal.<br>
+                            - Maintaining of the existing EzyAgric application in particular, the provisioning APIs.
+                        </p>
+                    </div>
+                </div> <!-- end column -->
+                <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <span class="position__co">Makerere University</span>
+                                <span class="position__pos">Lab Assistant</span>
+                            </h6>
+                            <div class="position__timeframe">
+                                August 2016 - May 2018
+                            </div>
+                        </div>
+    
+                        <p>
+                            - Assisting in the general administration of 
+                            infrastructures in the big laboratory four, College of computing and informatics technology.
+                        </p>
+                    </div>
+                </div> <!-- end column -->
+                <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <span class="position__co">Africa Pay</span>
+                                <span class="position__pos">Junior Software Developer</span>
+                            </h6>
+                            <div class="position__timeframe">
+                                June 2018 - Nov 2018
+                            </div>
+                        </div>
+    
+                        <p>
+                            - Implementing services that support the main Apay application 
+                            and the services it offers in particular services that monitor 
+                            transaction short comings like failures, timeouts and pending transactions.<br>
+                            -Implementation of endpoints that support the integration of the application to main service providers.
+                        </p>
+                    </div>
+                </div> <!-- end column -->
+    
+            </div> <!-- work positions -->
+    
+        </div> <!-- end s-about__section -->
+    
+    
+
+    </section> end s-testimonials
+
+    
+    <!-- footer
+    ================================================== -->
+    <footer class="s-footer h-dark-bg">
+        
+        <div class="right-vert-line"></div>
+
+        <div class="row s-footer__main">
+            <div class="column large-6">
+                <div class="section-intro" data-aos="fade-up">
+                    <h3 class="subhead">Get In Touch</h3>
+
+                    <h1 class="display-1">
+                    I would love to hear from you! Shoot me a message.
+                    </h1>
+                </div>
+
+                <div class="footer-email-us">
+                    <a href="mailto:#swabrakaterega@gmail.com" class="btn btn--primary h-full-width">Let's Talk</a>
+                </div>
+            </div>
+
+            <div class="column large-5">
+                <div class="footer-contacts">
+                    <div class="footer-contact-block" data-aos="fade-up">
+                        <h5 class="footer-contact-block__header">
+                            Find me
+                        </h5>
+                        <p class="footer-contact-block__content">
+                            Kanjokya House </br>
+                            Kampala Uganda
+                            
+                        </p>
+                    </div> <!-- end footer-contact-block -->
+                    <div class="footer-contact-block" data-aos="fade-up">
+                        <h5 class="footer-contact-block__header">
+                            Email
+                        </h5>
+                        <p class="footer-contact-block__content">
+                            <a href="mailto:#swabrakaterega@gmail.com">swabrakaterega@gmail.com</a>
+                            <!-- <a href="mailto:#activevolcanotech@gmail.com">activevolcanotech@gmail.com</a> -->
+
+                        </p>
+                    </div> <!-- end footer-contact-block -->
+                    <div class="footer-contact-block" data-aos="fade-up">
+                        <h5 class="footer-contact-block__header">
+                            Phone
+                        </h5>
+                        <p class="footer-contact-block__content">
+                            Skype : swabrakaterega
+                            <!-- <a href="tel:+256783155802">+256 783 155802</a></br>
+                            <a href="tel:+256754950711">+256 754 950711</a> -->
+                        </p>
+                    </div> <!-- end footer-contact-block -->
+                    <br>
+                    <div class="footer-contact-block" data-aos="fade-up">
+                        <h5 class="footer-contact-block__header">
+                            Social
+                        </h5>
+                        <ul class="footer-contact-block__list">
+                            <li><a href="#0">Git Hub</a></li>
+                            <li><a href="https://www.linkedin.com/in/swabra-namayanja-b79227129/">Linkend In</a></li>
+                            <li><a href="https://twitter.com/swabra20">Twitter</a></li>
+                            <li><a href="https://www.instagram.com/snytax_shuga/">Instagram</a></li>
+                            
+                        </ul>
+                    </div> <!-- end footer-contact-block -->
+                </div>
+            </div>
+        </div> <!-- end s-footer__main -->
+
+        <div class="row s-footer__bottom">
+            <div class="column large-full ss-copyright">
+                <span>© Copyright Swabra 2020</span> 
+                <span>Powered by <a href="https://www.facebook.com/africaGetOnTheTechMove">Africa on the Move</a></span>
+                <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+
+            </div> <!-- end ss-copyright -->
+
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0l8 9h-6v15h-4v-15h-6z"/></svg>
+                </a>
+            </div> <!-- end ss-go-top -->
+        </div> <!-- end s-footer__bottom -->
+
+    </footer> <!-- end s-footer -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+    <script src="{% static 'js/plugins.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+{% endblock %}
